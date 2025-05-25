@@ -3425,7 +3425,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "VBUS"
 		(shape input)
 		(at 142.24 88.9 90)
 		(fields_autoplaced yes)
@@ -3437,7 +3437,7 @@
 		)
 		(uuid "0bcc24e6-a248-4d31-8210-bcd7d8b61b47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 83.0614 90)
+			(at 142.24 81.6704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3645,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "VBUS"
 		(shape input)
 		(at 95.25 129.54 90)
 		(fields_autoplaced yes)
@@ -3657,7 +3657,7 @@
 		)
 		(uuid "6afaf207-3228-4fa3-984a-396ead75769e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 123.7014 90)
+			(at 95.25 122.3104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +4974,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cd5d0b6-b69b-4da3-b557-8770b75e69c7")
+			(uuid "3cd5d0b6-b69b-4da3-b557-8770b75e69c8")
 		)
 		(instances
 			(project ""
@@ -5040,7 +5040,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cd5d0b6-b69b-4da3-b557-8770b75e69c7")
+			(uuid "3cd5d0b6-b69b-4da3-b557-8770b75e69c9")
 		)
 		(instances
 			(project ""
@@ -5679,7 +5679,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cd5d0b6-b69b-4da3-b557-8770b75e69c7")
+			(uuid "3cd5d0b6-b69b-4da3-b557-8770b75e69ca")
 		)
 		(instances
 			(project ""
@@ -6532,10 +6532,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3638bfdb-799b-46ce-8aa4-340118d5b479")
+			(uuid "3638bfdb-799b-46ce-8aa4-340118d5b47a")
 		)
 		(pin "1"
-			(uuid "41f30420-9a07-4048-adb1-28b28a708ca0")
+			(uuid "41f30420-9a07-4048-adb1-28b28a708ca1")
 		)
 		(instances
 			(project ""
