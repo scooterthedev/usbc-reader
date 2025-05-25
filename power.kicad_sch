@@ -2986,6 +2986,12 @@
 		(uuid "4613fc32-fa7d-40c8-95ff-fe51fa4a356a")
 	)
 	(junction
+		(at 182.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6734969f-c738-4ab3-b16f-ff0e812ac880")
+	)
+	(junction
 		(at 170.18 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3179,6 +3185,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 40.64) (xy 182.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30afc973-e9fb-4086-91f6-cc7f4ddb76b1")
+	)
+	(wire
+		(pts
 			(xy 92.71 104.14) (xy 96.52 104.14)
 		)
 		(stroke
@@ -3256,6 +3272,16 @@
 			(type default)
 		)
 		(uuid "59c8a794-3808-4ad6-a99b-b7d97b8700b3")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 182.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f69ec4-7206-41b6-b478-fac37c696e63")
 	)
 	(wire
 		(pts
@@ -3467,7 +3493,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 182.88 55.88 90)
+		(at 182.88 40.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3477,7 +3503,7 @@
 		)
 		(uuid "2c212b6a-8eef-442b-9120-6618ee8e577c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.88 50.0414 90)
+			(at 182.88 34.8014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,6 +4311,74 @@
 			(project "power"
 				(path "/d55febbb-3d07-434c-b0dc-1571f6d3a46d"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17726115-8ab4-421e-b188-93a340692076")
+		(property "Reference" "C6"
+			(at 186.69 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 186.69 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 44.7548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c33e76b-5c65-4a1e-9248-45dc219ec8a1")
+		)
+		(pin "1"
+			(uuid "5145cac9-b7f1-460a-8f39-81842da617f6")
+		)
+		(instances
+			(project ""
+				(path "/d55febbb-3d07-434c-b0dc-1571f6d3a46d"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5391,6 +5485,73 @@
 			(project ""
 				(path "/d55febbb-3d07-434c-b0dc-1571f6d3a46d"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "979975c5-0557-4ebd-807e-ab1550babcf4")
+		(property "Reference" "#PWR012"
+			(at 196.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78111407-6544-4449-ad90-87fab6c4728a")
+		)
+		(instances
+			(project "power"
+				(path "/d55febbb-3d07-434c-b0dc-1571f6d3a46d"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
