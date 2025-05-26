@@ -1,4 +1,6 @@
-This project was a usb-c power reader that could read different power outputs from a device like a phone! Just plug it in, and see the reading on the OLED screen.
+## Powdy
+
+Powdy is an all-in-one power reader via USB-C! Just plug it in to your device, and watch as the power draw reading come onto the OLED screen. This device mostly uses one main component to read the power- The INA226, along with the MCU- the ATmega328P-A.
 
 ## BOM
 | Item Name        | Purpose in Project                        | Source                   | Item Price (incl. shipping + taxes) | Total Price |
