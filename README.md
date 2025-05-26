@@ -1,6 +1,9 @@
-## Powdy
+# Powdy
 
 Powdy is an all-in-one power reader via USB-C! Just plug it in to your device, and watch as the power draw reading come onto the OLED screen. This device mostly uses one main component to read the power- The INA226, along with the MCU- the ATmega328P-A.
+
+## Software 
+The whole software is being written in Arduino (yes, I know....), and being flashed to the MCU via a USBtinyISP as a HEX file via SPI, and the 6 pin headers on-board.
 
 ## BOM
 | Item Name        | Purpose in Project                        | Source                   | Item Price (incl. shipping + taxes) | Total Price |
