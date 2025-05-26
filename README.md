@@ -17,3 +17,5 @@ This project was a usb-c power reader that could read different power outputs fr
 
 ## Photos
 
+![image](https://github.com/user-attachments/assets/6c7cd621-9f36-42a8-ae05-8c37f37fe347)
+![image](https://github.com/user-attachments/assets/10684a08-9ad4-4437-85b0-b346d00b1456)
