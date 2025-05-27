@@ -13,4 +13,4 @@ For the rest of Sunday, I didn't continue to work on this as I had other project
 
 **Day 2 - Monday - 3.5 hours**
 
-Today was mostly just double checking everything, and making sure there were no issues (Suprise! There were a few that I fixed, like SMD pin headers 🤦‍♂️, and OLED footprints). Next I pretty much was on a mission to find all the nessecary components for my BOM- which was super annoying especially for the Crystal as there was none I could buy off of LCSC (I need to buy it from Digikey :().
+Today was mostly just double checking everything, and making sure there were no issues (Suprise! There were a few that I fixed, like SMD pin headers 🤦‍♂️, and OLED footprints). Next I pretty much was on a mission to find all the nessecary components for my BOM- which was super annoying especially for the Crystal as there was none I could buy off of LCSC (I need to buy it, and find it from Digikey :(). Once I finally found all the right components, I submitted my project to Highway as the full PCB was done along with the BOM.
